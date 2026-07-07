@@ -9,7 +9,7 @@ class QrImages < Formula
   def install
     libexec.install "qr-images.phar"
 
-    (bin/"qr-images").write <<~'EOS'
+    (bin/"qr-images").write <<~EOS
       #!/bin/bash
       exec "#{Formula["php"].opt_bin}/php" "#{libexec}/qr-images.phar" "$@"
     EOS
