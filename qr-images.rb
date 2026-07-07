@@ -1,8 +1,8 @@
 class QrImages < Formula
   desc "Generate QR code images"
   homepage "https://github.com/cable8mm/qr-images"
-  url "https://github.com/cable8mm/qr-images/releases/download/v1.2.8/qr-images.phar"
-  sha256 "05860d2a240d5d3984e43222c92e28c2545d4991b32026f988c436a0beb930e5"
+  url "https://github.com/cable8mm/qr-images/releases/download/v1.2.9/qr-images.phar"
+  sha256 "14a768291d0dded8b7033d8d78e68d6885c889bfb63bf53722bb41e8cc8e5500"
 
   depends_on "php"
 
